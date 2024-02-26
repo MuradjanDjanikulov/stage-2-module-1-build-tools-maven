@@ -1,15 +1,14 @@
-package demo;
+package com.epam.utils;
 
-import com.epam.utils.StringUtils;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class UtilsTest {
+class StringUtilsTest {
 
     @Test
-    void isAllPositiveNumbers() {
+    void testIsPositiveNumber() {
         assertTrue(StringUtils.isPositiveNumber("10"));
         assertTrue(StringUtils.isPositiveNumber("3.14"));
         assertFalse(StringUtils.isPositiveNumber("-5"));
