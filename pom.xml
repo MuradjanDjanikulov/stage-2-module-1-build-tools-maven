@@ -16,9 +16,9 @@
     <properties>
         <junit.version>5.8.1</junit.version>
     </properties>
+
     <dependencyManagement>
         <dependencies>
-
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-params</artifactId>
@@ -27,6 +27,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
     <build>
         <plugins>
             <plugin>
